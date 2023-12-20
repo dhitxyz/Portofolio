@@ -9,7 +9,7 @@ export default function Home() {
         <section>
           <div className="mx-auto lg:max-w-lg max-w-sm text-center hover:cursor-default">
             <p class="text-1xl text-gray-900 dark:text-white text-left">
-              Hi There<span class="wave">👋 </span>, I'm
+              Hi There<span class="wave">👋 </span>, I&apos;m
             </p>
             <h1 class="animate__animated animate__backInLeft text-4xl font-bold md:text-5xl dark:text-white text-gray-900 text-left">
               Kadek Panjii .

@@ -29,8 +29,8 @@ const cardAbout = () => {
             PHP, as well as design applications such as Adobe Photoshop and
             Figma. In the learning process, I always strives to create an
             attractive and easy user interface used, as well as focusing on code
-            quality and responsiveness Good. I'm very enthusiastic about the
-            future of the Web Development and UI/UX Design.
+            quality and responsiveness Good. I&apos;m very enthusiastic about
+            the future of the Web Development and UI/UX Design.
           </p>
         </div>
         <div className="mt-5 animate__animated animate__backInRight bg-zinc-200 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm xl:max-w-[750px] lg:max-w-[380px] md:max-w-[500px] max-w-[430px] m-auto rounded-xl items-center gap-4 p-10">
