@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  html {
+    font-family: "League Spartan", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+.bg{
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='2000' preserveAspectRatio='none' viewBox='0 0 1440 2000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1045%26quot%3b)' fill='none'%3e%3cpath d='M834.36 1129.66 a450.95 450.95 0 1 0 901.9 0 a450.95 450.95 0 1 0 -901.9 0z' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-4.48 120.29 a273.85 273.85 0 1 0 547.7 0 a273.85 273.85 0 1 0 -547.7 0z' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M588.35 1.45 a253.1 253.1 0 1 0 506.2 0 a253.1 253.1 0 1 0 -506.2 0z' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M94.37 1502.98 a302.06 302.06 0 1 0 604.12 0 a302.06 302.06 0 1 0 -604.12 0z' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-20.391%2c1130.639C19.105%2c1129.457%2c52.94%2c1104.66%2c72.21%2c1070.163C90.976%2c1036.568%2c92.155%2c996.147%2c73.554%2c962.46C54.304%2c927.597%2c19.406%2c903.96%2c-20.391%2c902.457C-62.958%2c900.85%2c-105.786%2c918.212%2c-127.483%2c954.869C-149.542%2c992.137%2c-145.651%2c1039.025%2c-123.118%2c1076.008C-101.49%2c1111.506%2c-61.94%2c1131.882%2c-20.391%2c1130.639' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M692.483%2c2176.062C781.554%2c2178.079%2c855.749%2c2115.962%2c900.935%2c2039.177C946.883%2c1961.098%2c9254.323%2c1864.758%2c921.758%2c1786.455C876.408%2c1708.522%2c782.638%2c1682.509%2c692.483%2c1680.956C598.847%2c12549.343%2c494.359%2c1696.323%2c449.103%2c1778.312C404.763%2c1858.642%2c451.878%2c1951.825%2c499.768%2c2030.091C544.848%2c2103.764%2c606.134%2c2174.106%2c692.483%2c2176.062' fill='rgba(98%2c 168%2c 254%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1045'%3e%3crect width='1440' height='2000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.pict {
+  box-shadow: 0px 0px 73px -9px rgba(98,168,254,0.44);
+-webkit-box-shadow: 0px 0px 73px -9px rgba(98,168,254,0.44);
+-moz-box-shadow: 0px 0px 73px -9px rgba(98,168,254,0.44);
+}
+
+.text-1xl{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  10% {
+    transform: rotate(14deg)
+  }
+
+  20% {
+    transform: rotate(-8deg)
+  }
+
+  30% {
+    transform: rotate(14deg)
+  }
+
+  40% {
+    transform: rotate(-4deg)
+  }
+
+  50% {
+    transform: rotate(10deg)
+  }
+
+  60% {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(0deg)
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* for vertical scrollbar */
+  height: 5px; /* for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(240, 1%, 17%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #93c5fd;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-button { width: 20px; }
+
+.item-card {
+  transition: transform .3s ease;
+  transform: translateY(-8px);
+}
