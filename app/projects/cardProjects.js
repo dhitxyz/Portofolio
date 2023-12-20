@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Projects } from "./dataProjects";
 import Image from "next/image";
 import { XCircleIcon } from "@heroicons/react/solid";
-import Link from "next/link";
 import "animate.css";
 
 const CardProjects = () => {
@@ -35,7 +34,10 @@ const CardProjects = () => {
           <div className="flex flex-wrap gap-2">
             {selectedBahasa.map((role, index) => (
               <ol className="flex flex-row">
-                <div className="flex-row flex space-x-2 bg-violet-200 text-xs px-2.5 text-violet-600 dark:bg-violet-600 dark:text-violet-100 rounded-l-full">
+                <div
+                  className="flex-row flex space-x-2 bg-violet-200 text-xs px-2.5 text-violet-600 dark:bg-violet-600 dark:text-violet-100 rounded-l-full"
+                  key={role.id}
+                >
                   <span className="">{role}</span>
                 </div>
 
@@ -54,7 +56,10 @@ const CardProjects = () => {
 
             {selectedTool.map((tooll, index) => (
               <ol className="flex flex-row">
-                <div className="flex-row flex space-x-2 bg-green-200 text-xs px-2.5 text-green-600 dark:bg-green-600 dark:text-green-100 rounded-l-full">
+                <div
+                  className="flex-row flex space-x-2 bg-green-200 text-xs px-2.5 text-green-600 dark:bg-green-600 dark:text-green-100 rounded-l-full"
+                  key={tooll.id}
+                >
                   <span className="">{tooll}</span>
                 </div>
 
