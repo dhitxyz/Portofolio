@@ -85,7 +85,7 @@ const CardProjects = () => {
 
       {/* End Filter */}
       <div className=" bg-zinc-200 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm lg:max-w-[90%] md:max-w-[600px] max-w-[430px] m-auto rounded-xl items-center grid lg:grid-cols-2 gap-4 p-10">
-        {filteredProjects.map((project: any) => {
+        {filteredProjects.map((project) => {
           return (
             <article
               className=" lg:max-w-[400] m-auto rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm hover:-translate-y-2 dark:shadow-gray-700/25"
@@ -112,7 +112,7 @@ const CardProjects = () => {
                   {project.deskripsi}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-1">
-                  {project.bahasa.map((bhsa: any) => {
+                  {project.bahasa.map((bhsa) => {
                     return (
                       <span
                         className="animate__animated animate__jackInTheBox cursor-pointer whitespace-nowrap rounded-full bg-violet-200 px-2.5 py-0.5 text-xs text-violet-600 dark:bg-violet-600 dark:text-violet-100 hover:bg-violet-300 hover:dark:bg-violet-500"
@@ -126,7 +126,7 @@ const CardProjects = () => {
                     );
                   })}
 
-                  {project.tools.map((tool: any) => {
+                  {project.tools.map((tool) => {
                     return (
                       <span
                         className="animate__animated animate__jackInTheBox cursor-pointer whitespace-nowrap rounded-full bg-green-200 px-2.5 py-0.5 text-xs text-green-600 dark:bg-green-600 dark:text-green-100 hover:bg-green-300 hover:dark:bg-green-500"
