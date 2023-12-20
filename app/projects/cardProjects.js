@@ -33,11 +33,8 @@ const CardProjects = () => {
         <div className="justify-between flex-row flex items-center p-2">
           <div className="flex flex-wrap gap-2">
             {selectedBahasa.map((role, index) => (
-              <ol className="flex flex-row">
-                <div
-                  className="flex-row flex space-x-2 bg-violet-200 text-xs px-2.5 text-violet-600 dark:bg-violet-600 dark:text-violet-100 rounded-l-full"
-                  key={role.id}
-                >
+              <ol className="flex flex-row" key={role.id}>
+                <div className="flex-row flex space-x-2 bg-violet-200 text-xs px-2.5 text-violet-600 dark:bg-violet-600 dark:text-violet-100 rounded-l-full">
                   <span className="">{role}</span>
                 </div>
 
@@ -55,11 +52,8 @@ const CardProjects = () => {
             ))}
 
             {selectedTool.map((tooll, index) => (
-              <ol className="flex flex-row">
-                <div
-                  className="flex-row flex space-x-2 bg-green-200 text-xs px-2.5 text-green-600 dark:bg-green-600 dark:text-green-100 rounded-l-full"
-                  key={tooll.id}
-                >
+              <ol className="flex flex-row" key={tooll.id}>
+                <div className="flex-row flex space-x-2 bg-green-200 text-xs px-2.5 text-green-600 dark:bg-green-600 dark:text-green-100 rounded-l-full">
                   <span className="">{tooll}</span>
                 </div>
 
