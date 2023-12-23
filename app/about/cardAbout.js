@@ -20,17 +20,18 @@ const cardAbout = () => {
           </h2>
 
           <p className="text-gray-500 dark:text-gray-300 md:mt-4 md:block">
-            Hi! I am I Kadek Panji Pramandhita, an interested student in the
-            fields of Web Development and UI/UX Design. I feel so interested in
-            how design and development can come together to creating amazing
-            digital experiences for users. I enjoy learning and finding out
-            about the latest trends in the industry This. I am also improving my
-            skills in languages programming such as HTML, CSS, JavaScript and
-            PHP, as well as design applications such as Adobe Photoshop and
-            Figma. In the learning process, I always strives to create an
-            attractive and easy user interface used, as well as focusing on code
-            quality and responsiveness Good. I&apos;m very enthusiastic about
-            the future of the Web Development and UI/UX Design.
+            Hai! Saya I Kadek Panji Pramandhita, seorang mahasiswa yang berminat
+            di bidang Web Development dan UI/UX Design. Saya merasa sangat
+            tertarik dengan bagaimana desain dan pengembangan dapat bersatu
+            untuk menciptakan pengalaman digital yang luar biasa bagi pengguna.
+            Saya senang belajar dan mencari tahu tentang tren terkini di
+            industri ini. Saya juga meningkatkan keterampilan saya dalam bahasa
+            pemrograman seperti HTML, CSS, JavaScript, serta aplikasi desain
+            seperti Adobe Photoshop dan Figma. Dalam proses pembelajaran, saya
+            selalu berusaha untuk menciptakan antarmuka pengguna yang menarik
+            dan mudah digunakan, serta fokus pada kualitas kode dan daya tanggap
+            yang baik. Saya sangat antusias dengan masa depan Pengembangan Web
+            dan Desain UI/UX.
           </p>
         </div>
         <div className="mt-5 animate__animated animate__backInRight bg-zinc-200 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm xl:max-w-[750px] lg:max-w-[380px] md:max-w-[500px] max-w-[430px] m-auto rounded-xl items-center gap-4 p-10">

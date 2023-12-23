@@ -14,6 +14,7 @@
   html {
     font-family: "League Spartan", sans-serif;
     scroll-behavior: smooth;
+    margin: auto;
   }
 }
 
@@ -26,7 +27,6 @@ html, body {
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-
 }
 
 .pict {

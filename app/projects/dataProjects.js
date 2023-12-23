@@ -16,11 +16,12 @@ const Projects = [
     tools: ["Boostrap", "PhpMyAdmin"],
     deskripsi: (
       <>
-        Siskampus is an innovative website designed using the object-oriented
-        programming (OOP) paradigm in the PHP programming language. With a focus
-        on ease of use and efficient data management, Siskampus provides various
-        features, including a secure login system, student registration,
-        announcements, and data processing for students, majors, and subjects.
+        Siskampus merupakan website inovatif yang dirancang dengan paradigma
+        pemrograman berorientasi objek (OOP) dalam bahasa pemrograman PHP.
+        Dengan fokus pada kemudahan penggunaan dan pengelolaan data yang
+        efisien, Siskampus menyediakan berbagai fitur, antara lain sistem login
+        yang aman, pendaftaran mahasiswa, pengumuman, dan pengolahan data
+        mahasiswa, jurusan, dan mata pelajaran.
       </>
     ),
   },
@@ -34,12 +35,12 @@ const Projects = [
     tools: ["Netbeans", "PhpMyAdmin"],
     deskripsi: (
       <>
-        Academic is a application, which are made using the Java programming
-        language. This application offers a series of important features,
-        including a login system, processing student data, lecturer data, course
-        data, class data, and attendance management. With a simple design and
-        focus on easy use, Akademik provides integrated solutions for higher
-        education institutions.
+        Akademik merupakan sebuah aplikasi yang dibuat dengan menggunakan bahasa
+        pemrograman Java. Aplikasi ini menawarkan serangkaian fitur penting,
+        antara lain sistem login, pengolahan data mahasiswa, data dosen, data
+        mata kuliah, data kelas, dan pengelolaan kehadiran. Dengan desain
+        sederhana dan fokus pada kemudahan penggunaan, Akademik memberikan
+        solusi terintegrasi untuk institusi pendidikan tinggi.
       </>
     ),
   },
@@ -52,11 +53,11 @@ const Projects = [
     tools: ["Laravel 10", "Bootstrap", "PhpMyAdmin"],
     deskripsi: (
       <>
-        Laundry application built using the Laravel framework, presenting an
-        integrated solution for modern laundry management. With a focus on ease
-        of use and operational efficiency, this application is equipped with
-        various features, including a secure login system, master data
-        processing and transaction data.
+        Aplikasi laundry yang dibangun menggunakan framework Laravel,
+        menghadirkan solusi terintegrasi untuk pengelolaan laundry modern.
+        Dengan fokus pada kemudahan penggunaan dan efisiensi operasional,
+        aplikasi ini dilengkapi dengan berbagai fitur, antara lain sistem login
+        yang aman, pemrosesan data master, dan data transaksi.
       </>
     ),
   },
@@ -69,8 +70,9 @@ const Projects = [
     tools: ["TailwindCSS", "NextJS"],
     deskripsi: (
       <>
-        My personal website, I created this website to display my profile,
-        skills and projects. As well as my place to try new technology.
+        Situs pribadi saya, saya membuat situs web ini untuk menampilkan profil,
+        keterampilan, dan proyek saya. Sekaligus tempat saya mencoba teknologi
+        baru.
       </>
     ),
   },
@@ -83,8 +85,9 @@ const Projects = [
     tools: [],
     deskripsi: (
       <>
-        A stunning website designed using HTML, CSS, and JavaScript, utilizing
-        ParallaxJS technology to provide immersive and dynamic visual effects.
+        Situs web menakjubkan yang dirancang menggunakan HTML, CSS, dan
+        JavaScript, memanfaatkan teknologi ParallaxJS untuk memberikan efek
+        visual yang imersif dan dinamis. HTML CSS JavaScript
       </>
     ),
   },
