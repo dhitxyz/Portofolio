@@ -3,7 +3,7 @@ import CardAbout from "../about/cardAbout";
 import "animate.css";
 
 export const metadata = {
-  title: "About | kadekPanjii .",
+  title: "About | KaPan .",
 };
 
 const About = () => {

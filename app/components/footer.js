@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex justify-center sm:justify-start mb-3 lg:ml-14 mt-4">
-            <p className="bg-gray-700 dark:bg-gray-50 border-radius hover:bg-gray-500 dark:hover:bg-gray-300 hover:scale-110 transition mr-2">
+            <p className="bg-gray-700 dark:bg-gray-50 rounded-xl hover:bg-gray-500 dark:hover:bg-gray-300 hover:scale-110 transition mr-2">
               <Link
                 href="https://github.com/KadekPanjiii"
                 target="_blank"
@@ -35,7 +35,7 @@ const Footer = () => {
                 </svg>
               </Link>
             </p>
-            <p className=" bg-gray-700 dark:bg-gray-50 border-radius hover:bg-gray-500 dark:hover:bg-gray-300 hover:scale-110 transition">
+            <p className=" bg-gray-700 dark:bg-gray-50 rounded-xl hover:bg-gray-500 dark:hover:bg-gray-300 hover:scale-110 transition">
               <Link
                 href="https://www.instagram.com/kadekpanjiii_/"
                 target="_blank"

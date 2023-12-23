@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home | kadekPanjii .",
+  title: "Home | KaPan .",
 };
 
 export default function Home() {
