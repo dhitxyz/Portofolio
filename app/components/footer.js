@@ -10,14 +10,14 @@ const Footer = () => {
       >
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
-            <p className="mt-4 text-center text-sm text-gray-500 dark:text-gray-50 lg:mt-0">
+            <p className="text-center text-sm text-gray-500 dark:text-gray-50 lg:mt-0">
               Terms & Conditions Privacy Policy
             </p>
-            <p className="mt-4 text-center text-sm text-gray-500 dark:text-gray-50 lg:mt-0">
+            <p className="text-center text-sm text-gray-500 dark:text-gray-50 lg:mt-0">
               &copy; 2023. All rights reserved.
             </p>
           </div>
-          <div className="flex justify-center sm:justify-start mb-3 lg:ml-14 mt-4">
+          <div className="hidden justify-center sm:justify-start mb-3 lg:ml-14 ml-14 mt-3 md:flex">
             <p className="bg-gray-700 dark:bg-gray-50 rounded-xl hover:bg-gray-500 dark:hover:bg-gray-300 hover:scale-110 transition mr-2">
               <Link
                 href="https://github.com/KadekPanjiii"

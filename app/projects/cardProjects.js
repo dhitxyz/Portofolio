@@ -87,7 +87,7 @@ const CardProjects = () => {
         {filteredProjects.map((project) => {
           return (
             <article
-              className=" lg:max-w-[400] m-auto rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm hover:-translate-y-2 dark:shadow-gray-700/25"
+              className=" lg:max-w-[400] m-auto rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-[length:400%_400%] p-0.5 shadow-xl transition [animation-duration:_6s] hover:shadow-sm hover:-translate-y-2 focus:-translate-y-2 dark:shadow-gray-700/25"
               key={project.id}
             >
               <div className="rounded-[10px] bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-6">
