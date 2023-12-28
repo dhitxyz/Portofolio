@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const cardAbout = () => {
   const [activeTab, setActiveTab] = useState(1);
