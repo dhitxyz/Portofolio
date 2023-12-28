@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const cardAbout = () => {
+function cardAbout() {
   const [activeTab, setActiveTab] = useState(1);
   return (
     <div className="lg:flex block justify-between m-auto sm:m-5 space-y-5 lg:space-y-0 xl:space-y-0">
@@ -401,6 +401,6 @@ const cardAbout = () => {
       </div>
     </div>
   );
-};
+}
 
 export default cardAbout;
