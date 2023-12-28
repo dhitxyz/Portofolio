@@ -2,8 +2,9 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-function cardAbout() {
+const CardAbout = () => {
   const [activeTab, setActiveTab] = useState(1);
+
   return (
     <div className="lg:flex block justify-between m-auto sm:m-5 space-y-5 lg:space-y-0 xl:space-y-0">
       <div className="animate__animated animate__backInUp bg-zinc-200 mt-0 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm lg:max-w-[800px] md:max-w-[500px] max-w-[430px] m-auto rounded-xl items-center gap-4 p-10">
@@ -401,6 +402,6 @@ function cardAbout() {
       </div>
     </div>
   );
-}
+};
 
-export default cardAbout;
+export default CardAbout;
