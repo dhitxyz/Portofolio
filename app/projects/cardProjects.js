@@ -104,7 +104,7 @@ const CardProjects = () => {
                   {project.tanggal}
                 </time>
 
-                <span class="animate__animated animate__bounce mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
+                <span className="animate__animated animate__bounce mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
                   {project.judul}
                 </span>
                 <p className="text-gray-500 dark:text-gray-400 md:mt-4 ">

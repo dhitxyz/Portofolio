@@ -13,7 +13,7 @@ const Projects = [
     tanggal: "15 Agustus 2023",
     foto: Foto1,
     bahasa: ["HTML", "CSS", "PHP", "JavaScript", "Boostrap"],
-    tools: ["GIT", "GitHub", "MySQL"],
+    tools: ["Visual Studio Code", "GIT", "GitHub", "MySQL"],
     deskripsi: (
       <>
         sebuah website inovatif yang dirancang dengan paradigma pemrograman
@@ -50,7 +50,7 @@ const Projects = [
     tanggal: "17 September 2023",
     foto: Foto3,
     bahasa: ["HTML", "CSS", "PHP", "Laravel 10", "Bootstrap"],
-    tools: ["GIT", "GitHub", "MySQL"],
+    tools: ["Visual Studio Code", "GIT", "GitHub", "MySQL"],
     deskripsi: (
       <>
         dikembangkan menggunakan framework Laravel memberikan solusi
@@ -67,7 +67,7 @@ const Projects = [
     tanggal: "14 Desember 2023",
     foto: Foto4,
     bahasa: ["NextJS 13", "TailwindCSS"],
-    tools: ["GIT", "GitHub", "NPM"],
+    tools: ["Visual Studio Code", "GIT", "GitHub", "NPM"],
     deskripsi: (
       <>
         diciptakan sebagai wadah untuk menampilkan profil, keterampilan, dan
@@ -83,7 +83,7 @@ const Projects = [
     tanggal: "9 April 2023",
     foto: Foto5,
     bahasa: ["HTML", "CSS", "JavaScript"],
-    tools: [],
+    tools: ["Visual Studio Code"],
     deskripsi: (
       <>
         dibuat dengan HTML, CSS, dan JavaScript, dengan sentuhan tambahan dari

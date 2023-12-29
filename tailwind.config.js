@@ -18,7 +18,7 @@ module.exports = {
     require("tailwind-typewriter")({
       wordsets: {
         skill: {
-          words: ["Web Developer", "Information Student", "Tech Enthusiast"],
+          words: ["Web Developer", "Tech Enthusiast"],
           isDeleting: false,
         },
       },
