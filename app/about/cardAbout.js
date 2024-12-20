@@ -10,7 +10,7 @@ const CardAbout = () => {
       <div className="animate__animated animate__backInUp bg-zinc-200 mt-0 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm lg:max-w-[800px] md:max-w-[500px] max-w-[430px] m-auto rounded-xl items-center gap-4 p-10">
         <Image
           alt=""
-          src="/image2.gif"
+          src="/image.jpeg"
           width={300}
           height={300}
           className="w-full h-full object-cover sm:h-full rounded-full border-4 border-blue-300 dark:border-blue-300 pict"
