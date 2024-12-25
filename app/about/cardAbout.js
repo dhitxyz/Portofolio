@@ -7,12 +7,15 @@ const CardAbout = () => {
 
   return (
     <div className="lg:flex block justify-between m-auto sm:m-5 space-y-5 lg:space-y-0 xl:space-y-0">
+      <audio autoPlay loop>
+        <source src="/music.mp3" type="audio/mpeg" />
+      </audio> 
       <div className="animate__animated animate__backInUp bg-zinc-200 mt-0 dark:bg-zinc-800 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm lg:max-w-[800px] md:max-w-[500px] max-w-[430px] m-auto rounded-xl items-center gap-4 p-10">
         <Image
           alt=""
           src="/image.jpg"
-          width={300}
-          height={300}
+          width={500}
+          height={500}
           className="w-full h-full object-cover sm:h-full rounded-full border-4 border-blue-300 dark:border-blue-300 pict"
         />
       </div>
@@ -23,7 +26,7 @@ const CardAbout = () => {
           </h2>
 
           <p className="text-gray-500 dark:text-gray-300 md:mt-4 md:block">
-            Hai! Saya I Kadek Panji Pramandhita, seorang pelajar yang berminat
+            Hai! Saya I Kadek Panji Pramandhita, seorang mahasiswa yang berminat
             dalam bidang Pengembangan Web dan Desain UI/UX. Saya sangat tertarik
             dengan cara desain dan pengembangan dapat bersatu untuk menciptakan
             pengalaman digital yang luar biasa bagi pengguna. Saya senang
